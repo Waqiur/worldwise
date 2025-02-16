@@ -1,64 +1,88 @@
 {
-    "cities": [
-        {
-            "cityName": "Lisbon",
-            "country": "Portugal",
-            "emoji": "https://flagcdn.com/w320/pt.png",
-            "date": "2027-10-31T15:59:59.138Z",
-            "notes": "My favorite city so far!",
-            "position": {
-                "lat": 38.727881642324164,
-                "lng": -9.140900099907554
-            },
-            "id": 73930385
-        },
-        {
-            "cityName": "Madrid",
-            "country": "Spain",
-            "emoji": "https://flagcdn.com/w320/es.png",
-            "date": "2027-07-15T08:22:53.976Z",
-            "notes": "",
-            "position": {
-                "lat": 40.46635901755316,
-                "lng": -3.7133789062500004
-            },
-            "id": 17806751
-        },
-        {
-            "cityName": "Berlin",
-            "country": "Germany",
-            "emoji": "https://flagcdn.com/w320/de.png",
-            "date": "2027-02-12T09:24:11.863Z",
-            "notes": "Amazing 😃",
-            "position": {
-                "lat": 52.53586782505711,
-                "lng": 13.376933665713324
-            },
-            "id": 98443197
-        },
-        {
-            "cityName": "Madrid",
-            "country": "Spain",
-            "emoji": "https://flagcdn.com/w320/es.png",
-            "date": "2027-07-15T08:22:53.976Z",
-            "notes": "",
-            "position": {
-                "lat": 40.46635901755316,
-                "lng": -3.7133789062500004
-            },
-            "id": 1780675
-        },
-        {
-            "cityName": "Berlin",
-            "country": "Germany",
-            "emoji": "https://flagcdn.com/w320/de.png",
-            "date": "2027-02-12T09:24:11.863Z",
-            "notes": "Amazing 😃",
-            "position": {
-                "lat": 52.53586782505711,
-                "lng": 13.376933665713324
-            },
-            "id": 9844319
-        }
-    ]
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "https://flagcdn.com/w320/pt.png",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "17806751"
+    },
+    {
+      "id": "0e3d",
+      "cityName": "Valbona",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2025-02-16T06:50:10.977Z",
+      "notes": "test",
+      "position": {
+        "lat": "40.23078429744422",
+        "lng": "-0.81298828125"
+      }
+    },
+    {
+      "id": "34d3",
+      "cityName": "Pinar",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2025-02-16T06:53:08.643Z",
+      "notes": "test",
+      "position": {
+        "lat": "37.391109021834815",
+        "lng": "-3.4306571674096586"
+      }
+    },
+    {
+      "id": "f977",
+      "cityName": "Tiedra",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2025-02-16T06:55:11.244Z",
+      "notes": "test",
+      "position": {
+        "lat": "41.67364531095524",
+        "lng": "-5.251464843750001"
+      }
+    },
+    {
+      "id": "361e",
+      "cityName": "Eymoutiers",
+      "country": "France",
+      "emoji": "https://flagcdn.com/w320/fr.png",
+      "date": "2025-02-16T06:55:20.011Z",
+      "notes": "test",
+      "position": {
+        "lat": "45.70671613240857",
+        "lng": "1.77978515625"
+      }
+    },
+    {
+      "id": "ec71",
+      "cityName": "Luna",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2025-02-16T07:15:40.380Z",
+      "notes": "test",
+      "position": {
+        "lat": "42.081916678306335",
+        "lng": "-0.8569335937500001"
+      }
+    }
+  ]
 }
