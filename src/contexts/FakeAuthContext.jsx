@@ -33,7 +33,6 @@ function AuthProvider({ children }) {
 
     function login(email, password) {
         if (email === FAKE_USER.email && password === FAKE_USER.password) {
-            console.log(email, password);
             dispatch({ type: "login", payload: FAKE_USER });
         }
     }
