@@ -83,6 +83,18 @@
         "lat": "42.081916678306335",
         "lng": "-0.8569335937500001"
       }
+    },
+    {
+      "id": "0bef",
+      "cityName": "Iguzquiza",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2025-02-16T18:02:26.696Z",
+      "notes": "",
+      "position": {
+        "lat": "42.63502792692182",
+        "lng": "-2.0874023437500004"
+      }
     }
   ]
 }
