@@ -6,7 +6,10 @@ import {
     useCallback,
 } from "react";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL =
+    process.env.NODE_ENV === "development"
+        ? "http://localhost:9000/cities"
+        : "/data/cities.json";
 
 const CitiesContext = createContext();
 
@@ -73,9 +76,10 @@ function CitiesProvider({ children }) {
             dispatch({ type: "loading" });
 
             try {
-                const res = await fetch(`${BASE_URL}/cities`);
+                const res = await fetch(BASE_URL);
                 const data = await res.json();
-                dispatch({ type: "cities/loaded", payload: data });
+                const cities = Array.isArray(data) ? data : data.cities; // Handle array for dev and JSON for prod
+                dispatch({ type: "cities/loaded", payload: cities });
             } catch {
                 dispatch({
                     type: "rejected",

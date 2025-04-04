@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/data/cities.json",
+            "destination": "/public/data/cities.json"
+        }
+    ]
+}

@@ -95,6 +95,30 @@
         "lat": "42.63502792692182",
         "lng": "-2.0874023437500004"
       }
+    },
+    {
+      "id": "61a3",
+      "cityName": "Paradinas de San Juan",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2025-04-04T18:30:09.153Z",
+      "notes": "",
+      "position": {
+        "lat": "40.96472319166172",
+        "lng": "-5.185546875000001"
+      }
+    },
+    {
+      "id": "9fe5",
+      "cityName": "Plasencia",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2025-04-04T18:30:12.201Z",
+      "notes": "",
+      "position": {
+        "lat": "40.01271255218443",
+        "lng": "-6.130371093750001"
+      }
     }
   ]
 }
