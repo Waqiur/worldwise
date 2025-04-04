@@ -119,6 +119,18 @@
         "lat": "40.01271255218443",
         "lng": "-6.130371093750001"
       }
+    },
+    {
+      "id": "1c84",
+      "cityName": "Pozoamargo",
+      "country": "Spain",
+      "emoji": "https://flagcdn.com/w320/es.png",
+      "date": "2025-04-04T18:34:54.006Z",
+      "notes": "",
+      "position": {
+        "lat": "39.336168009511034",
+        "lng": "-2.1972656250000004"
+      }
     }
   ]
 }

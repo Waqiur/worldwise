@@ -97,7 +97,7 @@ function CitiesProvider({ children }) {
             dispatch({ type: "loading" });
 
             try {
-                const res = await fetch(`${BASE_URL}/cities/${id}`);
+                const res = await fetch(`${BASE_URL}/${id}`);
                 const data = await res.json();
                 dispatch({ type: "city/loaded", payload: data });
             } catch {
@@ -113,8 +113,16 @@ function CitiesProvider({ children }) {
     async function createCity(newCity) {
         dispatch({ type: "loading" });
 
+        if (process.env.NODE_ENV !== "development") {
+            dispatch({
+                type: "rejected",
+                payload: "City creation is not supported in production.",
+            });
+            return;
+        }
+
         try {
-            const res = await fetch(`${BASE_URL}/cities`, {
+            const res = await fetch(`${BASE_URL}`, {
                 method: "POST",
                 body: JSON.stringify(newCity),
                 headers: {
@@ -135,8 +143,16 @@ function CitiesProvider({ children }) {
     async function deleteCity(id) {
         dispatch({ type: "loading" });
 
+        if (process.env.NODE_ENV !== "development") {
+            dispatch({
+                type: "rejected",
+                payload: "City deletion is not supported in production.",
+            });
+            return;
+        }
+
         try {
-            await fetch(`${BASE_URL}/cities/${id}`, {
+            await fetch(`${BASE_URL}/${id}`, {
                 method: "DELETE",
             });
 
